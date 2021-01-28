@@ -1,0 +1,140 @@
+* {
+    margin: 0%;
+}
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(49, 49, 49, 0.541);
+    border: 5px solid #e0cb83;
+    height: 80vh;
+    width: 80%%;
+}
+/* Left side */
+.left {
+    margin-left: 40px;
+}
+.home {
+    font-size: 85px;
+    margin-top: 40px;
+    color: white;
+}
+.homescore {
+    height: 29vh; width: 35vh;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20vh;
+    color: orange;
+}
+.homeplusbutton {
+    color: rgb(39, 184, 39);
+    background-color: rgba(0, 0, 0, 0.411);
+    height: 30px; width: 50px;
+    margin-bottom: -20px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+.homeminbutton {
+    color: rgb(39, 184, 39);
+    background-color: rgba(0, 0, 0, 0.411);
+    height: 30px; width: 50px;
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.homepenaltybutton {
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.411);
+    height: 40px; width: 200px;
+    margin-top: 30px;
+    margin-left: 35px;
+    font-size: 25px;
+}
+.penaltynamesl {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    height: 90px; width: 280px;
+    background-color: rgb(0, 0, 0);
+    color: red;
+    font-size: 40px;
+}
+/* mid */
+.mid {
+    margin-right: -30px;
+}
+.period {
+    font-size: 75px;
+    color: orange;
+    margin-left: 18px;
+    margin-top: 10px;
+    margin: center;
+}
+.periodbox {
+    height: 30vh; width: 25vh;
+    margin-left: 30px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20vh;
+    color: rgb(185, 27, 27);
+}
+.periodplusbutton {
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.411);
+    margin-top: 30px;
+    margin-left: 20px;
+    color: blue;
+}
+.periodminbutton {
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.411);
+    color: blue;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+/* right side */
+.right {
+    padding-right: 30px;
+}
+.guest {
+    font-size: 85px;
+    margin-top: 40px;
+    color: white;
+}
+.guestscore {
+    height: 29vh; width: 35vh;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20vh;
+    color: orange;
+}
+.guestplusbutton {
+    color: rgb(39, 184, 39);
+    background-color: rgba(0, 0, 0, 0.411);
+    height: 30px; width: 50px;
+    margin-bottom: -20px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+.guestminbutton {
+    color: rgb(39, 184, 39);
+    background-color: rgba(0, 0, 0, 0.411);
+    height: 30px; width: 50px;
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: 20px;
+}
+.guestpenaltybutton {
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.411);
+    height: 40px; width: 250px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 23px;
+}
+.penaltynamesr {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    height: 90px; width: 280px;
+    background-color: rgb(0, 0, 0);
+    color: red;
+    font-size: 40px;
+}

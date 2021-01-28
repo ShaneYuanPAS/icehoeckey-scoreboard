@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scoreboard.css"> 
+</head>
+<body>
+
+<div class="scoreboard">
+
+    <div class="left">
+        <h1 class="home">HOME</h1>
+        <div class="homescore"></div>
+        <button class="homeplusbutton" onclick="cancelHome()">"-"</button>
+        <button class="homeminbutton" onclick="addHome()">"+"</button>
+        <div class="homepenalty"></div>
+        <button class="homepenaltybutton" onclick="penaltynameH()">Penalty name</button>
+        <div class="penaltynamesl"></div>
+    </div>
+
+    <div class="mid">
+        <h1 class="period">Period</h1>
+        <div class="periodbox"></div>
+        <button class="periodplusbutton" onclick="cancelPeriod()">"-"</button>
+        <button class="periodminbutton" onclick="addPeriod()">"+"</button>
+    </div>
+
+    <div class="right">
+        <h1 class="guest">GUEST</h1>
+        <div class="guestscore"></div>
+        <button class="guestplusbutton" onclick="cancelGuest()">"-"</button>
+        <button class="guestminbutton" onclick="addGuest()">"+"</button>
+        <div class="guestpenalty"></div>
+        <button class="guestpenaltybutton" onclick="penaltynameG()">Penalty name - Guest</button>
+        <div class="penaltynamesr"></div>
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<script src="scoreboard.js"></script>
